@@ -1,7 +1,7 @@
 # Twitter_Sentiment_Analysis-and_Stock_Prediction
 #predicting_stock_prices Stock Prediction
 
-This is the code for the Stock Price Prediction challenge for '#Hack2Innovate'. The code uses the scikit-learn machine learning library to train a support vector regression on a stock price dataset from Google Finance to predict a future price. In this I use scikit-learn to build an ML model, but for the challenge you'll use the Keras library.
+This is the code for the Stock Price Prediction challenge for '#Hack2Innovate'. The code uses the [scikit-learn](https://github.com/scikit-learn/scikit-learn) machine learning library to train a support vector regression on a stock price dataset from [Google Finance](https://en.wikipedia.org/wiki/Support_vector_machine) to predict a future price. In this I use scikit-learn to build an ML model, but for the challenge you'll use the [Keras library](https://keras.io/).
 
 
 There are two scripts. ```demo.py``` is the code ```challenge.py``` is a template for the coding challenge that will complete.
