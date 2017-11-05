@@ -16,7 +16,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 #Step 2 - Search for the company name on Twitter
-public_tweets = api.search('company_name')
+public_tweets = api.search('Aapl')
 
 
 #Step 3 - Define a threshold for each sentiment to classify each 
@@ -30,8 +30,8 @@ for tweet in public_tweets:
 #data collection
 dates = []
 prices = []
-def get_data(filename):
-	with open(filename, 'r') as csvfile:
+def get_data(aapl):
+	with open('aapl.csv', 'r') as csvfile:
 		csvFileReader = csv.reader(csvfile)
 		next(csvFileReader)
 		for row in csvFileReader:
