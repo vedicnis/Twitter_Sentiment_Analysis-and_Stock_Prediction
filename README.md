@@ -38,4 +38,4 @@ Here i also use the TextBlob library to classify those tweets as either positive
 
 If the majority of tweets are positive, then the Keras library is use to build a neural network that predicts the next stock price given a dataset of past stock prices that will pull from Google Finance. 
 
-
+![The Sentimental Graph](https://github.com/vedicnis/Twitter_Sentiment_Analysis-and_Stock_Prediction/blob/master/Figure_1.png)
