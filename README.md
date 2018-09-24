@@ -1,12 +1,13 @@
 # Twitter_Sentiment_Analysis-and_Stock_Prediction
-#predicting_stock_prices Stock Prediction
+
+## Stock Prediction
 
 This is the code for the Stock Price Prediction challenge for '#Hack2Innovate'. The code uses the [scikit-learn](https://github.com/scikit-learn/scikit-learn) machine learning library to train a support vector regression on a stock price dataset from [Google Finance](https://en.wikipedia.org/wiki/Support_vector_machine) to predict a future price. In this I use scikit-learn to build an ML model, but for the challenge you'll use the [Keras library](https://keras.io/).
 
 
 There are two scripts. ```demo.py``` is the code ```challenge.py``` is a template for the coding challenge that will complete.
 
-**#Dependencies**
+**Dependencies**
 ---
 
 * numpy (http://www.numpy.org/)
@@ -15,7 +16,7 @@ There are two scripts. ```demo.py``` is the code ```challenge.py``` is a templat
 * textblob (https://textblob.readthedocs.io/en/dev/)
 * keras (https://keras.io)
 
-**#Demo Usage**
+**Demo Usage**
 ---
 
 Once you have your dependencies installed via pip, run the demo script in terminal via
@@ -23,7 +24,7 @@ Once you have your dependencies installed via pip, run the demo script in termin
 ```python demo.py```
 
 
-**#Challenge**
+**Challenge**
 ---
 
 The challenge template in this repo labeled``` challenge.py```. The instructions are:
@@ -32,9 +33,9 @@ The challenge template in this repo labeled``` challenge.py```. The instructions
 
 [To know how to get Twitter access tokens Click Here!](https://developer.twitter.com/en/docs/basics/authentication/overview)
 
-Here i use the Tweepy library to retrieve tweets about a company stock from twitter.
+Here we used the Tweepy library to retrieve tweets about a company stock from twitter.
 
-Here i also use the TextBlob library to classify those tweets as either positive or negative given a threshold  that i define.
+We also used the TextBlob library to classify those tweets as either positive or negative given a threshold  that i define.
 
 If the majority of tweets are positive, then the Keras library is use to build a neural network that predicts the next stock price given a dataset of past stock prices that will pull from Google Finance. 
 
